@@ -1,0 +1,28 @@
+# Model files (too large for git)
+anli_model/
+anli_model_TF/
+*.bin
+*.safetensors
+
+# Training artifacts
+results/
+results_TF/
+temp/
+temp_TF/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# OS
+.DS_Store
+Thumbs.db
